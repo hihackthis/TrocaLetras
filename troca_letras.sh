@@ -24,7 +24,7 @@ ENDCOLOR="\e[0m"
 echo "Vamos começar, antes de entrar no programa..."
 sleep 2
 echo ""
-read -p "Digite o caminho absoluto do diretório: " dir
+read -r -p "Digite o caminho absoluto do diretório: " dir
 echo ""
 echo -e "Você digitou: ${MAGENTA_LIGHT}${dir}${ENDCOLOR}"
 echo ""
@@ -46,7 +46,7 @@ echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 
 echo ""
-read -p "Escollha uma opção: " OPCAO
+read -r -p "Escollha uma opção: " OPCAO
 echo ""
 	case $OPCAO in
 		1)
